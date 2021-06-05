@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title id="dia">Citas día {{dia}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background_acceso_fecha">
+  <ion-list id="lista_citas">
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-button type='large' (click)="crearCita()" expand="block">+</ion-button>
+</ion-footer>

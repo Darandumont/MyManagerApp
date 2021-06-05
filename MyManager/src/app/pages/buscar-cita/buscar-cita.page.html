@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Buscar cita</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="background_fondo_buscar_cita">
+  <div style="background-color: white;">
+  <br>
+  <br>
+  <h4 style="text-align: center;">Introduce el nombre del cliente</h4>
+  <br>
+  <ion-row>
+    <ion-col size="8">
+      <ion-item class="toma_datos" style="margin-left: 10px;">
+        <ion-label position="floating" for="textoCita">Nombre</ion-label>
+        <ion-input id="textoCita" type='text' clear-input (keydown)="calcularMes()"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <br>
+  <ion-list id="lista_citas">
+  </ion-list>
+</div>
+  <br>
+  <br>
+</ion-content>

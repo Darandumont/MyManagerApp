@@ -1,2 +1,0 @@
-# MyManagerApp
-Proyecto MyManager.
