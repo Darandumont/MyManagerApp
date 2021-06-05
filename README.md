@@ -1,0 +1,2 @@
+# MyManagerApp
+Proyecto MyManager.
